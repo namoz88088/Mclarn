@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <span class="year">2018 - 2023</span>
+      <a href="" class="logo"><img src="/img/logo.png" alt="" /></a>
+      <a href="#" class="menu" onclick="toggleMenu()"></a>
+    </header>
+    <div class="banner">
+      <ul class="nav" onclick="toggleMenu()">
+        <li><a href="#">Supercars</a></li>
+        <li><a href="#">GT</a></li>
+        <li><a href="#">Ultimate</a></li>
+        <li><a href="#">Solus GT</a></li>
+        <li><a href="#">Legacy</a></li>
+      </ul>
+      <div class="bg-video-list">
+        <video
+          src="./assets/mclaren-1.mp4"
+          class="bg-video mclaren-1 active"
+          autoplay
+          loop
+          muted
+        ></video>
+        <video
+          src="./assets/mclaren-2.mp4"
+          class="bg-video mclaren-2"
+          autoplay
+          loop
+          muted
+        ></video>
+        <video
+          src="./assets/mclaren-3.mp4"
+          class="bg-video mclaren-3"
+          autoplay
+          loop
+          muted
+        ></video>
+        <video
+          src="./assets/mclaren-3.mp4"
+          class="bg-video mclaren-3"
+          autoplay
+          loop
+          muted
+        ></video>
+        <video
+          src="./assets/mclaren-4.mp4"
+          class="bg-video mclaren-4"
+          autoplay
+          loop
+          muted
+        ></video>
+      </div>
+      <div class="content">
+        <h1>McLAREN</h1>
+        <h3 class="model mclaren-1 active">765LT SPIDER</h3>
+        <h3 class="model mclaren-2" style="color: #92ff00">ARTURA</h3>
+        <h3 class="model mclaren-3" style="color: #ff0015">7505</h3>
+        <h3 class="model mclaren-4" style="color: #ff2e00">765LT</h3>
+        <h3 class="model mclaren-5" style="color: #bbc0dd">7505 SPIDER</h3>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure eum, ab
+          obcaecati libero cumque blanditiis dolorum porro! Minima, amet
+          temporibus!
+        </p>
+        <a href="#">Enquire</a>
+      </div>
+      <div class="screen">
+        <div class="shadow"></div>
+        <div>
+          <span style="--i: 0">
+            <video
+              class="trailer mclaren-1 screen-video active"
+              src="./assets/mclaren-1.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+          </span>
+          <span style="--i: 1">
+            <video
+              class="screen-video"
+              src="./assets/trailer-1.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+          </span>
+          <span style="--i: 2">
+            <video
+              class="screen-video"
+              src="./assets/trailer-2.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+          </span>
+          <span style="--i: 3">
+            <video
+              class="screen-video"
+              src="./assets/trailer-3.mp4"
+              autoplay
+              loop
+              muted
+            ></video>
+          </span>
+        </div>
+      </div>
+      <!--<div class="gallery">
+    <div class="carousel">
+        <a class="carousel-item" href="#one!">
+            <img src="/img/cars/mclaren-1.jpg" alt="720S Spider">
+            <p>720S Spider</p>
+        </a>
+          <a class="carousel-item" href="#one!">
+            <img src="/img/cars/mclaren-2.jpg" alt="720S Spider">
+            <p>720S Spider</p>
+        </a>
+          <a class="carousel-item" href="#one!">
+            <img src="/img/cars/mclaren-3.jpeg" alt="720S Spider">
+            <p>720S Spider</p>
+        </a>
+          <a class="carousel-item" href="#one!">
+            <img src="/img/cars/mclaren-4.jpeg" alt="720S Spider">
+            <p>720S Spider</p>
+        </a>
+          <a class="carousel-item" href="#one!">
+            <img src="/img/cars/mclaren-5.jpeg" alt="720S Spider">
+            <p>720S Spider</p>
+        </a>
+    </div>
+</div> -->
+      <div class="gallery">
+        <div class="carousel">
+          <a class="carousel-item" href="#">
+            <img src="./img/cars/mclaren-1.jpg" alt="" />
+            <h4>765LT SPIDER</h4>
+          </a>
+          <a class="carousel-item" href="#">
+            <img src="./img/cars/mclaren-2.jpg" alt="" />
+            <h4 style="color: #92ff00">ARTURA</h4>
+          </a>
+          <a class="carousel-item" href="#">
+            <img src="./img/cars/mclaren-3.jpeg" alt="" />
+            <h4 style="color: #ff0015">7505</h4>
+          </a>
+          <a class="carousel-item" href="#">
+            <img src="./img/cars/mclaren-4.jpeg" alt="" />
+            <h4 style="color: #ff2e00">765LT</h4>
+          </a>
+          <a class="carousel-item" href="#">
+            <img src="./img/cars/mclaren-5.jpeg" alt="" />
+            <h4 style="color: #bbc0dd">7505 SPIDER</h4>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <ul class="sci">
+      <li>
+        <a href="#"><i class="bx bxs-facebook"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="bx bxs-instagram"></i></a>
+      </li>
+      <li>
+        <a href="#"><i class="bx bxs-youtube"></i></a>
+      </li>
+    </ul>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/script.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".carousel").carousel();
+      });
+    </script>
+  </body>
+</html>
